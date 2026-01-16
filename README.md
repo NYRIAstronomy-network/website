@@ -1,14 +1,42 @@
-# nyriastronomy.github.io
+# NYRIA Astronomy – Website Source
 
-Here is the repository that host the NYRIA website. To update the website, please read the wiki and follow the guidelines. 
+This repository contains the **source code** for the NYRIA Astronomy website.
 
-Templates for each page can be found in the /example_template/
+🌐 Live site: https://nyriaastronomy.github.io
 
-Hosting locally is possible via Jekyll, to do this, you will need Ruby. If you have mac (Apple Silicon), please follow the instruction from this link: 
-https://jekyllrb.com/docs/installation/macos/
+---
 
-You will also find the installation guide for other platforms from the link above. 
+## Repository roles
 
-To run the live server, please run this line: 
-bundle exec jekyll serve
+- **This repo** → source of truth (Jekyll site)
+- **NYRIAstronomy.github.io** → auto-generated publishing output
 
+All changes should be made **here**, never in the Pages repository ([nyria])(https://github.com/NYRIAstronomy/NYRIAstronomy.github.io)
+
+---
+
+## Development workflow
+
+1. Create a branch
+2. Make changes to content, layouts, or configuration
+3. Open a Pull Request
+4. On merge to the default branch:
+   - GitHub Actions builds the site
+   - The generated output is deployed automatically
+
+No manual deployment is required.
+
+---
+
+## Organisation
+
+This repository is owned by a GitHub Organisation to ensure: 
+- Multiple owners and admins
+- Long-term maintainability
+
+---
+
+## Requesting access / joining the organization
+
+If you would like to contribute to or help maintain the NYRIA Astronomy website,
+please get in touch with the Organisation Owners. 
